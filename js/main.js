@@ -35,18 +35,11 @@ buttonSend.addEventListener("click",
 
 
 
-        
-        
-    }
-);
 
 
 
 
-
-
-
-// 3 - calcolare il prezzo totale del viaggio
+        // 3 - calcolare il prezzo totale del viaggio
 
     // 3.1 - il prezzo del biglietto è definito in base ai km (0.21 € al km)
     let totalPrice = priceKm * numKm.value;
@@ -78,7 +71,7 @@ buttonSend.addEventListener("click",
 
 let finalPrice;
 
-    if (ageUser.value <= 18){
+    if (ageUser.value <= 17){
         finalPrice = totalPrice20X;
 
     } else if (ageUser.value >= 65){
@@ -89,6 +82,20 @@ let finalPrice;
     }
 
 
-document.getElementById("xxx").innerHTML = "Il prezzo del tuo biglietto è di: " + finalPrice + " €";
+document.getElementById("xxx").innerHTML =  finalPrice + " €";
+
+document.getElementById("ticketName").innerHTML =  nameUser.value ;
+        
+        
+    }
+);
+
+
+
+
+
+
+
+
 
     

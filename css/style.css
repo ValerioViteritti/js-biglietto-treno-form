@@ -1,8 +1,47 @@
 body{
-    /* background-image: url(../img/shinkansen2.jpg);
-    background-size: cover; */
+    background-color: #b91450;
+    color: white;
     text-align: center;
 }
+
+
+main>.container>div{
+    background-color: white;
+    color: #b91450;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+.yyy{
+    margin: 0 auto;
+}
+
+
+h1{
+    font-size: 3rem;
+}
+
+input.nameUser, input.km, input.ageUser{
+    text-align: center;
+    border-color: #b91450;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 1.4rem;
+}
+
+h5{
+    margin-bottom: 30px;
+}
+
+#cardB div, #cardB h4{
+    color: black;
+}
+
+
 
 /* header{
     background-color: rgb(31, 31, 255);
