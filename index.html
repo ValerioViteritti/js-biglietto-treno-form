@@ -21,7 +21,7 @@
 
     <main>
         <div class="container">
-            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>  
+            <h1 class="m-5">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>  
             <div class="row">
                 <div class="col-12">
                     <form action="#">
@@ -47,9 +47,11 @@
 
                     
                         
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-2"><button class="send">INVIA</button></div>
-                            <div class="col-2"><input type="reset" value="Reset" /></div>
+                        <div class="row d-flex justify-content-center mt-3">
+                            <div class="col-1"><button class="send">INVIA</button></div>
+                            <div class="col-1"><input type="reset" value="RESET"/></div>
+                            <div class="col-1"><input type="reset" value="REFRESH ALL" onClick="window.location.reload();" /></div>
+                            
                             
                             
 
@@ -69,7 +71,7 @@
             
 
             </div>
-            <h1>IL TUO BIGLIETTO</h1>
+            <h1 class="m-5">IL TUO BIGLIETTO</h1>
             <div id="cardB" class="row">
                 <h4>DETTAGLIO PASSEGGERO</h4>
                 <div class="container">
@@ -104,8 +106,11 @@
 
                     </div>
                 </div>
+                <div class="col mt-2">
+                    <button>ACQUISTA ORA</button>
+                </div>
+            </div>
             
-            </div>  
         </div>
         <!-- <h1>&#9733 Grazie per aver simulato il costo del tuo biglietto, di seguito il risultato. &#9733</h1>
         
