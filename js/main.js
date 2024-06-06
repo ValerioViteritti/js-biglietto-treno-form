@@ -63,6 +63,14 @@ buttonSend.addEventListener("click",
 
 
 
+document.getElementById("carriage").innerHTML =
+        Math.floor(Math.random() * 10) + 1;
+
+document.getElementById("codeCP").innerHTML =
+        Math.floor(Math.random() * 90000) + 9999;
+
+
+
 let finalPrice;
 
     if (ageUser.value <= 17){
